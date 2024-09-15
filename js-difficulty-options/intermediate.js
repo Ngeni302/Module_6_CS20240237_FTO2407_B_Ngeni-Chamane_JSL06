@@ -24,9 +24,8 @@ function displayMenuItems(menu) {
             
             // HINT: Append the list item to the category's list
         
-        });
+        };
     }
-}
 
 // HINT: Callback function for adding an item to the order
 function addToOrder(itemName) {
@@ -39,7 +38,7 @@ function addToOrder(itemName) {
     // HINT: Calculate and update the total price
     const currentTotal = parseFloat();
     const itemPrice = 60; // Assuming each item costs R90 (you can customize this)
-    const newTotal = ;
+    const newTotal = 
     orderTotalElem.textContent = newTotal.toFixed(2);
 }
 

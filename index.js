@@ -8,11 +8,22 @@ const menu = {
 // Function to display menu items by category
 function displayMenuItems(menu) {
     // Get the menu container element from the HTML
+    
+        // Create a category element
+        
+        // Create a list element for items
 
+        // Iterate through each item in the category
+    
+            // Attach click event listener to add the item to the order
+    
+
+        // Append the list of items to the menu container
+}
     // Loop through each category and its items in the menu object
-
+    for (const category in menu) 
         // Create an element to represent the category
-
+      
         // Set the text content of the category element to the category name
 
         // Append the category element to the menu container
@@ -31,8 +42,6 @@ function displayMenuItems(menu) {
 
             // Append the list item to the list of items
 
-            
-}
 
 // Callback function for adding an item to the order
 function addToOrder(itemName) {
@@ -50,9 +59,21 @@ function addToOrder(itemName) {
 }
 
 // Function to initialize the menu system
-function initMenuSystem(menu) {
+
+    
+    // Create a list item for the order
+   
+
+    // Dummy price calculation
+    
+    // Update the order total
+    
+
     // Call the function to display menu items
-}
+    function initMenuSystem(menu) {
+        displayMenuItems(menu);
+    }
 
 // Start the menu system by calling the init function
 initMenuSystem(menu);
+
